@@ -1,5 +1,5 @@
 "use strict";
-// HEY THIS IS YOUR TA 
+
 let name = prompt("What's your name?");
 
 alert(
@@ -93,8 +93,6 @@ function question5(){
     );
   }
 }
-
-
 
 // Question 6
 function question6(){
