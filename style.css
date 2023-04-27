@@ -1,10 +1,21 @@
+:root {
+  --primary-color: #4285F4;
+  --secondary-color: #34A853;
+  --tertiary-color: #FBBC05;
+  --quaternary-color: #EA4335;
+}
+
+
 body {
-  background-color: #000000;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: Arial, sans-serif;
   font-size: 16px;
   text-align: center;
   margin: 0;
   padding: 0;
+  body 
+  
 }
 
 title {
@@ -16,13 +27,14 @@ title {
 }
 
 h1 {
-  color: #fff;
+  color: var(--tertiary-color);
   text-align: center;
   margin: 0;
   font-size: 36px;
 }
 
 h2 {
+  color: var(--tertiary-color);
   font-size: 24px;
   text-align: center;
   margin-top: 40px;
@@ -39,6 +51,7 @@ body {
 }
 
 ol {
+  color: var(--secondary-color);
   margin-top: 50px;
   font-size: 1.2rem;
   list-style-position: inside;
@@ -46,6 +59,7 @@ ol {
 }
 
 ul {
+  color: var(--secondary-color);
   margin-top: 50px;
   font-size: 1.2rem;
   list-style-position: inside;
@@ -53,5 +67,6 @@ ul {
 }
 
 li {
+  color: var(--quaternary-color);
   margin-bottom: 10px;
 }
